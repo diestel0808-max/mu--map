@@ -1,14 +1,14 @@
 {
   "version": 2,
   "functions": {
-    "api/*.js": {
+    "api/kopis.js": {
       "runtime": "nodejs20.x"
     }
   },
   "routes": [
     {
-      "src": "/api/(.*)",
-      "dest": "/api/$1.js"
+      "src": "/api/kopis",
+      "dest": "/api/kopis.js"
     }
   ]
 }
