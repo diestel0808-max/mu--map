@@ -1,5 +1,8 @@
 {
-  "name": "mumap-proxy",
+  "name": "mu-map",
   "version": "1.0.0",
-  "dependencies": {}
+  "type": "module", 
+  "dependencies": {
+    ...
+  }
 }
